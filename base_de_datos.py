@@ -1,4 +1,4 @@
-# base_de_datos.py
+# Base de datos
 
 import sqlite3
 import os
@@ -131,6 +131,6 @@ def buscar_clientes_por_fuero(fuero):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM clientes WHERE Fuero = ? ORDER BY ID ASC', (fuero,))
-    clientes_db = [dict(row) for row in cursor.fetchall()]
+    clientes_db = [dict(row) for row in cursor.fetchall()] #busca todo
     conn.close()
     return clientes_db
