@@ -134,3 +134,5 @@ def buscar_clientes_por_fuero(fuero):
     clientes_db = [dict(row) for row in cursor.fetchall()] #busca todo
     conn.close()
     return clientes_db
+
+
