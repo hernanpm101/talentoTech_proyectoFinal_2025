@@ -1,1 +1,1 @@
-La contraseña de la opcion 5 del Menu principal es: 1234. Una vez dentro se podra ver todos los clientes
+La contraseña de la opcion 5 del Menu principal es: 1234. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
