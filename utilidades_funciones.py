@@ -7,6 +7,12 @@ import datetime
 
 init(autoreset=True)
 
+# Constantes para la longitud máxima de las entradas
+MAX_LEN_NOMBRE_APELLIDO = 50
+MAX_LEN_EMAIL = 255
+MAX_LEN_TELEFONO = 20
+MAX_LEN_FUERO_TIPO_CASO = 50 
+
 # Funciones de Utilidad Generales
 
 def limpiar_pantalla():
@@ -24,16 +30,22 @@ def validar_telefono(telefono):
 
 # Funciones de Utilidad para la Gestión de Errores y Excepciones
 
-def pedir_entrada_no_vacia(mensaje, mensaje_error=" ❌ Este campo no puede estar vacío. Intente de nuevo.", solo_letras=False):
+def pedir_entrada_no_vacia(mensaje, mensaje_error=" ❌ Este campo no puede estar vacío. Intente de nuevo.", solo_letras=False, max_len=255):
     """
     Pide al usuario una entrada de texto y asegura que no esté vacía.
     Si solo_letras es True, valida que la entrada contenga solo caracteres alfabéticos.
+    Asegura que la longitud de la entrada no exceda max_len.
     Reintenta hasta obtener una entrada válida.
     """
     while True:
         valor = input(mensaje).strip()
         if not valor:
             print(Fore.RED + mensaje_error + Style.RESET_ALL)
+            continue
+        
+        # Validación de longitud máxima
+        if len(valor) > max_len:
+            print(Fore.RED + f"❌ Entrada demasiado larga. Máximo {max_len} caracteres." + Style.RESET_ALL)
             continue
 
         if solo_letras and not valor.replace(' ', '').isalpha():
@@ -43,11 +55,14 @@ def pedir_entrada_no_vacia(mensaje, mensaje_error=" ❌ Este campo no puede esta
 
 def pedir_email_valido(mensaje):
     """
-    Pide al usuario un email y lo valida con la función validar_email.
+    Pide al usuario un email y lo valida con la función validar_email y la longitud máxima.
     Reintenta hasta obtener un email válido.
     """
     while True:
         email = input(mensaje).strip()
+        if len(email) > MAX_LEN_EMAIL: # Validación de longitud para el email
+            print(Fore.RED + f"❌ Email demasiado largo. Máximo {MAX_LEN_EMAIL} caracteres." + Style.RESET_ALL)
+            continue
         if validar_email(email):
             return email
         else:
@@ -55,11 +70,14 @@ def pedir_email_valido(mensaje):
 
 def pedir_telefono_valido(mensaje):
     """
-    Pide al usuario un número de teléfono y lo valida con la función validar_telefono.
+    Pide al usuario un número de teléfono y lo valida con la función validar_telefono y la longitud máxima.
     Reintenta hasta obtener un teléfono válido.
     """
     while True:
         telefono = input(mensaje).strip()
+        if len(telefono) > MAX_LEN_TELEFONO: # Validación de longitud para el teléfono
+            print(Fore.RED + f"❌ Teléfono demasiado largo. Máximo {MAX_LEN_TELEFONO} dígitos." + Style.RESET_ALL)
+            continue
         if validar_telefono(telefono):
             return telefono
         else:
@@ -76,6 +94,17 @@ def pedir_numero_entero(mensaje, mensaje_error="Entrada inválida. Por favor, in
             return int(valor)
         except ValueError:
             print(Fore.RED + mensaje_error + Style.RESET_ALL)
+
+def pedir_edad_valida(mensaje, min_edad=0, max_edad=120):
+    """
+    Pide al usuario una edad y valida que sea un número entero dentro de un rango razonable.
+    """
+    while True:
+        edad = pedir_numero_entero(mensaje)
+        if min_edad <= edad <= max_edad:
+            return edad
+        else:
+            print(Fore.RED + f"❌ Edad inválida. Debe estar entre {min_edad} y {max_edad}." + Style.RESET_ALL)
 
 def registrar_opcion(opcion_texto, datos_adicionales=None, opciones_seleccionadas_list=None):
     """
@@ -120,6 +149,7 @@ def mostrar_opciones_seleccionadas(opciones_seleccionadas_list):
                 print(f"{i}. " + Fore.GREEN + f"{accion}:" + Style.RESET_ALL)
                 print(f"   - ID: {datos.get('ID', 'N/A')}")
                 print(f"   - Cliente: {datos.get('Nombre', '')} {datos.get('Apellido', '')}")
+                print(f"   - Edad: {datos.get('Edad', 'N/A')}") # Agregado al historial
                 print(f"   - Fuero: {datos.get('Fuero', '')}")
                 print(f"   - Tipo de caso: {datos.get('Tipo de caso', '')}")
                 print(f"   - Fecha: {timestamp_formateado}")

@@ -23,9 +23,9 @@ def menu():
         print("2. Buscar cliente (por ID o Email)")
         print("3. Actualizar cliente")
         print("4. Eliminar cliente")
-        print("5. Mostrar todos los clientes (Requiere contraseña)")
+        print("5. Opciones de Clientes (Requiere contraseña)") 
         print("6. Buscar por fuero")
-        print("7. Mostrar historial de acciones")
+        print("7. Reporte de historial de acciones")
         print("8. Salir")
 
         opcion_int = pedir_numero_entero(Fore.YELLOW + "Seleccione una opción: " + Style.RESET_ALL,
@@ -44,8 +44,8 @@ def menu():
                 registrar_opcion("Eliminar cliente", opciones_seleccionadas_list=opciones_seleccionadas)
                 gestor_clientes.eliminar_cliente()
             case 5:
-                registrar_opcion("Mostrar todos los clientes (con contraseña)", opciones_seleccionadas_list=opciones_seleccionadas)
-                gestor_clientes.mostrar_todos_clientes(PASSWORD_ADMIN)
+                # submenú en gestor_clientes
+                gestor_clientes.menu_mostrar_clientes(PASSWORD_ADMIN, opciones_seleccionadas)
             case 6:
                 registrar_opcion("Buscar por fuero", opciones_seleccionadas_list=opciones_seleccionadas)
                 gestor_clientes.buscar_por_fuero()
@@ -65,4 +65,4 @@ def menu():
 if __name__ == "__main__":
     menu()
 
-
+    

@@ -1,0 +1,77 @@
+
+Reporte de Clientes - Estudio Jurídico M&M y Asociados
+Fecha de Creación: 01-07-2025 19:58:43
+-------------------------------------------------------
+
+ID: 1
+Nombre Completo: Hernan Perez
+Edad: 47
+Email: hernan@gmail.com
+Teléfono: 2214364856
+Fuero: Penal
+Tipo de caso: Homicidio
+Fecha de registro: 01-07-2025 19:51:02
+----------------------------------------
+ID: 2
+Nombre Completo: Karina Marquez mares
+Edad: 48
+Email: karina@gmail.com
+Teléfono: 2210987123
+Fuero: Civil
+Tipo de caso: Sucesiones
+Fecha de registro: 01-07-2025 19:51:45
+----------------------------------------
+ID: 3
+Nombre Completo: Andrea Perez
+Edad: 20
+Email: andrea@gmail.com
+Teléfono: 2211234567
+Fuero: Laboral
+Tipo de caso: Reclamo salarial
+Fecha de registro: 01-07-2025 19:52:26
+----------------------------------------
+ID: 4
+Nombre Completo: Nicolas Perez
+Edad: 16
+Email: nicolas@gmail.com
+Teléfono: 2213451234
+Fuero: Familia
+Tipo de caso: Adopciones
+Fecha de registro: 01-07-2025 19:53:16
+----------------------------------------
+ID: 5
+Nombre Completo: Aylen Perez
+Edad: 14
+Email: aylen@gmail.com
+Teléfono: 2210998123
+Fuero: Familia
+Tipo de caso: Violencia familiar
+Fecha de registro: 01-07-2025 19:53:56
+----------------------------------------
+ID: 6
+Nombre Completo: Alfonsina Perez
+Edad: 7
+Email: alfonsina@gmail.com
+Teléfono: 22112345678
+Fuero: Familia
+Tipo de caso: Adopciones
+Fecha de registro: 01-07-2025 19:54:30
+----------------------------------------
+ID: 7
+Nombre Completo: Griselda Medina
+Edad: 20
+Email: griselda.medina@bue.edu.ar
+Teléfono: 037915620000
+Fuero: Civil
+Tipo de caso: Divorcio
+Fecha de registro: 01-07-2025 19:57:18
+----------------------------------------
+ID: 8
+Nombre Completo: Erica Gentilini
+Edad: 99
+Email: erica.gentilini@bue.edu.ar
+Teléfono: 1166666666
+Fuero: Penal
+Tipo de caso: Homicidio
+Fecha de registro: 01-07-2025 19:58:30
+----------------------------------------
