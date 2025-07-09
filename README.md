@@ -17,6 +17,16 @@ La App esta dividida en modulos y las herrramientas o librerias instaladas son l
 
 main.py --> from colorama import Fore, Style. Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
 
+base_de_datos.py --> import sqlite3
+                     import os
+                     from colorama import Fore, Style
+                     import datetime
+
+                     
+
+
+
+
 
 
 La contraseña de la opcion 5 del Menu principal es: 1234. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
