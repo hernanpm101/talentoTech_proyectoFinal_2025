@@ -17,12 +17,12 @@ La App esta dividida en modulos y las herrramientas o librerias instaladas son l
 
 main.py --> from colorama import Fore, Style. Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
 
-base_de_datos.py --> import sqlite3
-                     import os
-                     from colorama import Fore, Style
-                     import datetime
+base_de_datos.py --> import sqlite3,
+                     import os,
+                     from colorama import Fore, Style,
+                     import datetime.
 
-                     
+
 
 
 
