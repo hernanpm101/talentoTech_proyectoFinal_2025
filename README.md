@@ -1,4 +1,4 @@
-# ESTUDIO jURIDICO M&M y ASOCIODOS
+## ESTUDIO jURIDICO M&M y ASOCIADOS
 
 Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estudio Juridico de La ciudad de La Plata. 
 El Menu principal esta configurado de la siguinte forma:
