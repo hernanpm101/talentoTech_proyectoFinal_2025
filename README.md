@@ -15,9 +15,7 @@ Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estud
 
 La App esta dividida en modulos y las herrramientas o librerias instaladas son las siguientes:
 
-main.py
-from colorama import Fore, Style
-Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
+main.py --> from colorama import Fore, Style. Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
 
 
 
