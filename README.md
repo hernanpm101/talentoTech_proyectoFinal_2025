@@ -1,7 +1,6 @@
-## ESTUDIO jURIDICO M&M y ASOCIADOS
+## ESTUDIO JURIDICO M&M y ASOCIADOS
 
-Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estudio Juridico de La ciudad de La Plata. 
-El Menu principal esta configurado de la siguinte forma:
+Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estudio Juridico de La ciudad de La Plata. Creado en el ambito de TalentoTech. El Menu principal esta configurado de la siguinte forma:
 
 1. Agregar cliente
 2. Buscar cliente (por ID o Email)
@@ -12,6 +11,13 @@ El Menu principal esta configurado de la siguinte forma:
 7. Reporte de historial de acciones
 8. Salir
    
+## HERRAMIENTAS, LIBRERIAS USADAS E INSTALADAS
+
+La App esta dividida en modulos y las herrramientas o librerias instaladas son las siguientes:
+
+main.py
+from colorama import Fore, Style
+Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
 
 
 
