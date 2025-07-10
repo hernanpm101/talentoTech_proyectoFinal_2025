@@ -1,6 +1,6 @@
 ## ESTUDIO JURIDICO M&M y ASOCIADOS
 
-Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estudio Juridico de La ciudad de La Plata. Creado en el ambito de TalentoTech. El Menu principal esta configurado de la siguinte forma:
+Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estudio Juridico de La ciudad de La Plata, creado en el ambito de TalentoTech. El Menu principal esta configurado de la siguinte forma:
 
 1. Agregar cliente
 2. Buscar cliente (por ID o Email)
@@ -12,6 +12,16 @@ Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estud
 8. Salir
 
 Para la ejeucion del programa el usuario debe ejecutar el modulo main.py
+
+## QUE ES UN CRUD?
+
+C (Crear): Añadir nueva información. Por ejemplo, crear un nuevo usuario en un sistema, añadir un producto a un catálogo, o registrar un nuevo evento.
+
+R (Leer): Obtener información existente. Esto podría ser ver la lista de todos los usuarios, buscar un producto específico por su nombre, o mostrar los detalles de un evento.
+
+U (Actualizar): Modificar información existente. Por ejemplo, cambiar el nombre de un usuario, actualizar el precio de un producto, o corregir la fecha de un evento.
+
+D (Borrar): Eliminar información. Esto implicaría dar de baja un usuario, quitar un producto del catálogo, o eliminar un evento.
 
 ## HERRAMIENTAS, LIBRERIAS USADAS E INSTALADAS
 
