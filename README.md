@@ -17,9 +17,11 @@ Para la ejeucion del programa el usuario debe ejecutar el modulo main.py
 
 La App esta dividida en modulos y las herrramientas o librerias instaladas son las siguientes:
 
-main.py --> from colorama import Fore, Style. Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
+main.py --> from colorama import Fore, Style. 
+Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
 
-base_de_datos.py --> import sqlite3, import os, from colorama import Fore Style, import datetime. SQLite3 es una biblioteca de software que implementa un sistema de gestión de bases de datos relacionales (RDBMS) ligero y basado en archivos. En cuanto a 'os', este módulo permite realizar diversas tareas como manipular archivos y directorios, gestionar procesos y obtener información del sistema. Al importar os, se puede acceder a todas las funciones y constantes que este módulo ofrece.
+base_de_datos.py --> import sqlite3, import os, from colorama import Fore Style, import datetime. 
+SQLite3 es una biblioteca de software que implementa un sistema de gestión de bases de datos relacionales (RDBMS) ligero y basado en archivos. En cuanto a 'os', este módulo permite realizar diversas tareas como manipular archivos y directorios, gestionar procesos y obtener información del sistema. Al importar os, se puede acceder a todas las funciones y constantes que este módulo ofrece.
 
 
 
