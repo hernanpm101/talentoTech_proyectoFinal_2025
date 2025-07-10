@@ -29,4 +29,4 @@ utilidades_funciones.py --> from colorama import Fore, Style, init, import re, i
 
 ## CONTRASEÑA DE LA OPCION 5 DEL MENU PRINCIPAL
 
-La contraseña de la opcion 5 del Menu principal es: '1234'. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
+La contraseña de la opcion 5 del Menu principal es: **'1234'**. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
