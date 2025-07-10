@@ -24,14 +24,9 @@ base_de_datos.py --> import sqlite3, import os, from colorama import Fore Style,
 SQLite3 es una biblioteca de software que implementa un sistema de gestión de bases de datos relacionales (RDBMS) ligero y basado en archivos. En cuanto a 'os', este módulo permite realizar diversas tareas como manipular archivos y directorios, gestionar procesos y obtener información del sistema. Al importar os, se puede acceder a todas las funciones y constantes que este módulo ofrece. import datetime en código Python, significa que el programa está trayendo la funcionalidad del módulo datetime para poder trabajar con fechas y horas.<br>
 
 utilidades_funciones.py --> from colorama import Fore, Style, init, import re, import os, import datetime.<br>
-init: Esta es una función que debes llamar al principio de tu programa. Su propósito principal es configurar colorama para que funcione correctamente en tu sistema. En cuanto a 'import re' en un script de Python, significa que el programa está trayendo el módulo re, el cual es la biblioteca incorporada de Python para trabajar con expresiones regulares.
+'init' Esta es una función que se llama al principio del programa. su propósito principal es configurar 'colorama' para que funcione correctamente en tu sistema. En cuanto a 'import re' en un script de Python, significa que el programa está trayendo el módulo re, el cual es la biblioteca incorporada de Python para trabajar con expresiones regulares.
 
 
+## CONTRASEÑA DE LA OPCIUON 5 DEL MENU PRINCIPAL
 
-
-
-
-
-
-
-La contraseña de la opcion 5 del Menu principal es: 1234. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
+La contraseña de la opcion 5 del Menu principal es: '1234'. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
