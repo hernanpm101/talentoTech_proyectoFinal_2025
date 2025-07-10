@@ -13,7 +13,7 @@ Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estud
 
 Para la ejeucion del programa el usuario debe ejecutar el modulo main.py
 
-## QUE ES UN CRUD?
+## QUE ES UN CRUD *(en ingles)*
 
 C (Crear): Añadir nueva información. Por ejemplo, crear un nuevo usuario en un sistema, añadir un producto a un catálogo, o registrar un nuevo evento.
 
