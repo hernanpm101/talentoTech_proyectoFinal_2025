@@ -21,7 +21,11 @@ main.py --> from colorama import Fore, Style.<br>
 Colorama es una librería de Python que te permite añadir colores y estilos a la salida de tu consola (terminal)
 
 base_de_datos.py --> import sqlite3, import os, from colorama import Fore Style, import datetime.<br>
-SQLite3 es una biblioteca de software que implementa un sistema de gestión de bases de datos relacionales (RDBMS) ligero y basado en archivos. En cuanto a 'os', este módulo permite realizar diversas tareas como manipular archivos y directorios, gestionar procesos y obtener información del sistema. Al importar os, se puede acceder a todas las funciones y constantes que este módulo ofrece.
+SQLite3 es una biblioteca de software que implementa un sistema de gestión de bases de datos relacionales (RDBMS) ligero y basado en archivos. En cuanto a 'os', este módulo permite realizar diversas tareas como manipular archivos y directorios, gestionar procesos y obtener información del sistema. Al importar os, se puede acceder a todas las funciones y constantes que este módulo ofrece. import datetime en código Python, significa que el programa está trayendo la funcionalidad del módulo datetime para poder trabajar con fechas y horas.<br>
+
+utilidades_funciones.py --> from colorama import Fore, Style, init, import re, import os, import datetime.<br>
+init: Esta es una función que debes llamar al principio de tu programa. Su propósito principal es configurar colorama para que funcione correctamente en tu sistema. En cuanto a 'import re' en un script de Python, significa que el programa está trayendo el módulo re, el cual es la biblioteca incorporada de Python para trabajar con expresiones regulares.
+
 
 
 
