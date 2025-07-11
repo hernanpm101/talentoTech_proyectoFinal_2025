@@ -1,17 +1,8 @@
 
 Reporte de Clientes - Estudio Jurídico M&M y Asociados
-Fecha de Creación: 01-07-2025 19:58:43
+Fecha de Creación: 10-07-2025 21:28:46
 -------------------------------------------------------
 
-ID: 1
-Nombre Completo: Hernan Perez
-Edad: 47
-Email: hernan@gmail.com
-Teléfono: 2214364856
-Fuero: Penal
-Tipo de caso: Homicidio
-Fecha de registro: 01-07-2025 19:51:02
-----------------------------------------
 ID: 2
 Nombre Completo: Karina Marquez mares
 Edad: 48
@@ -74,4 +65,31 @@ Teléfono: 1166666666
 Fuero: Penal
 Tipo de caso: Homicidio
 Fecha de registro: 01-07-2025 19:58:30
+----------------------------------------
+ID: 9
+Nombre Completo: Virginia Bossi
+Edad: 33
+Email: virginia@gmail.com
+Teléfono: 2219873442
+Fuero: Familia
+Tipo de caso: Violencia familiar
+Fecha de registro: 10-07-2025 21:14:32
+----------------------------------------
+ID: 10
+Nombre Completo: David Mendoza
+Edad: 55
+Email: david@gmail.com
+Teléfono: 2212345678
+Fuero: Laboral
+Tipo de caso: Despido
+Fecha de registro: 10-07-2025 21:20:54
+----------------------------------------
+ID: 11
+Nombre Completo: Hernan Perez
+Edad: 47
+Email: hernan@hotmail.com
+Teléfono: 2214364856
+Fuero: Penal
+Tipo de caso: Homicidio
+Fecha de registro: 10-07-2025 21:27:52
 ----------------------------------------
