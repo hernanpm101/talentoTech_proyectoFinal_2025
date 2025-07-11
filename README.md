@@ -45,6 +45,12 @@ SQLite3 es una biblioteca de software que implementa un sistema de gestión de b
 utilidades_funciones.py --> from colorama import Fore, Style, init, import re, import os, import datetime.<br>
 'init' Esta es una función que se llama al principio del programa. su propósito principal es configurar 'colorama' para que funcione correctamente en tu sistema. En cuanto a 'import re' en un script de Python, significa que el programa está trayendo el módulo re, el cual es la biblioteca incorporada de Python para trabajar con expresiones regulares.
 
+clientes.db --> es el nombre del archivo de la base de datos SQLite.
+
+## CARPETA __pycache__
+
+La carpeta __pycache__ es una carpeta que Python crea automáticamente para almacenar archivos bytecode compilado de tus módulos y paquetes. Puede parecer misteriosa al principio, pero tiene un propósito muy útil: acelerar la ejecución de tus programas
+
 
 ## CONTRASEÑA DE LA OPCION 5 DEL MENU PRINCIPAL
 
