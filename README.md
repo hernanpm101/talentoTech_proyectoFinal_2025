@@ -11,6 +11,15 @@ Es un CRUD en Python que tiene como finalidad la gestion de clientes en un Estud
 7. Reporte de historial de acciones
 8. Salir
 
+El cliente al acceder al programa/App se debera registrar con sus datos personales, y podra acceder segun su problema o consulta en los distintos fueros:
+1. Penal
+2. Civil
+3. Laboral
+4. Familia
+
+A su vez cada Fuero despliega mas opciones segun su naturaleza legal. 
+
+### App ### 
 Para la ejeucion del programa el usuario debe ejecutar el modulo main.py
 
 ## QUE ES UN CRUD *(en ingles)*
@@ -39,4 +48,9 @@ utilidades_funciones.py --> from colorama import Fore, Style, init, import re, i
 
 ## CONTRASEÑA DE LA OPCION 5 DEL MENU PRINCIPAL
 
-La contraseña de la opcion 5 del Menu principal es: **'1234'**. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. 
+La contraseña de la opcion 5 del Menu principal es: **'1234'**. Una vez dentro se podra acceder a las 'Opciones de Clientes', donde se podra generar un archivo de respalto .txt. A su vez en el mismo submenu la opcion 3 --> se podra generar un reporte filtrando los clientes por edad. El submenu de la opcion 5 esta definido de la siguiente forma:
+
+1. Mostrar todos los clientes en pantalla
+2. Generar archivo .txt de clientes (Backup)
+3. Filtrar clientes por edad (Reporte)
+4. Volver al menú principal
